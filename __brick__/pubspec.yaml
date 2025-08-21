@@ -1,7 +1,5 @@
-# name: {{app_name.snakeCase()}}
-# description: {{description}}
-name: "mason_test"
-description: ""
+name: {{app_name.snakeCase()}}
+description: {{description}}
 publish_to: 'none'
 version: 0.1.0
 
