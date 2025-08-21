@@ -45,13 +45,14 @@ vars:
     prompt: What is your organization name? (e.g., com.yourcompany)
 
   platforms:
-    type: array
-    description: Target platforms for the Flutter app
-    default: ["android", "ios", "web"]
-    values:
-      - android
-      - ios
-      - web
-      - linux
-      - macos
-      - windows
+      type: array
+      description: Target platforms for the Flutter app
+      separator: ","   # 👈 Required for arrays
+      default: android,ios,web
+      values:
+        - android
+        - ios
+        - web
+        - linux
+        - macos
+        - windows
