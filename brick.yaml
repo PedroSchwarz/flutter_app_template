@@ -46,6 +46,12 @@ vars:
 
   platforms:
     type: array
-    description: Target platforms
+    description: Target platforms for the Flutter app
     default: ["android", "ios", "web"]
-    prompt: Which platforms do you want to support?
+    values:
+      - android
+      - ios
+      - web
+      - linux
+      - macos
+      - windows
