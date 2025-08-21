@@ -26,8 +26,26 @@ environment:
 #  * a list of values (enums only)
 #  * an optional separator (list only)
 vars:
-  name:
+  app_name:
     type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
+    description: The name of the Flutter application
+    default: my_app
+    prompt: What is your app name?
+  
+  description:
+    type: string
+    description: A short description of the Flutter application
+    default: A new Flutter project.
+    prompt: What is your app description?
+
+  org_name:
+    type: string
+    description: The organization name (reverse domain)
+    default: com.example
+    prompt: What is your organization name? (e.g., com.yourcompany)
+
+  platforms:
+    type: array
+    description: Target platforms
+    default: ["android", "ios", "web"]
+    prompt: Which platforms do you want to support?
