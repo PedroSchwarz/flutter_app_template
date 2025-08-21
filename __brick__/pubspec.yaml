@@ -1,5 +1,7 @@
-name: {{app_name.snakeCase()}}
-description: {{description}}
+# name: {{app_name.snakeCase()}}
+# description: {{description}}
+name: "mason_test"
+description: ""
 publish_to: 'none'
 version: 0.1.0
 
@@ -11,15 +13,15 @@ dependencies:
   collection: ^1.18.0
   flutter:
     sdk: flutter
-  flutter_bloc: ^8.1.6
+  flutter_bloc: ^9.1.1
   freezed_annotation: ^3.1.0
-  get_it: ^7.7.0
-  go_router: ^14.6.2
+  get_it: ^8.2.0
+  go_router: ^16.2.0
   json_annotation: ^4.9.0
   logging: ^1.2.0
 
 dev_dependencies:
-  bloc_test: ^9.1.7
+  bloc_test: ^10.0.0
   build_runner:
   flutter_lints: ^5.0.0
   flutter_test:
